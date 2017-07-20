@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			*{
+				margin: 0;
+				padding: 0;
+				list-style: none;
+			}
+			.box{
+				width: 300px;
+				height: 400px;
+				margin: 50px ;
+				background: #525A5A;
+                position: relative;
+			}
+			.title{
+				width: 260px;
+				margin: 0 auto;
+				padding-top: 20px;
+				color: white;
+				
+			}
+			.title p{
+				font-size: 23px;
+				font-weight: bold;
+			}
+			.txt{
+				width: 260px;
+				margin: 0 auto;
+				font-size: 12px;
+				padding-top: 10px;
+				color: white;
+				
+			}
+			.txt .p1{
+				float: left;
+			}
+			.txt .p2{
+				float: right;
+			}
+			.clearfix:after{
+				display: block;
+				clear: both;
+				content: '';
+			}
+			.money{
+				width: 260px;
+				margin: 0 auto;
+				font-size: 12px;
+				padding-top: 10px;
+				
+			}
+			.money1{
+				width: 210px;
+				line-height: 35px;
+				float: left;
+				height: 35px;
+				background: white;
+			}
+			.money p{
+				padding: 0 8px 0 8px;
+			}
+			.money1 .p1{
+				float: left;
+			}
+			.money1 .p2{
+				float: right;
+			}
+			.money2{
+				height: 35px;
+				width: 49px;
+				float: right;
+				border-left: 1px solid gray;
+				line-height: 35px;
+                background: white;				
+				text-align: center;
+				cursor: pointer;
+			}
+			.txt_{
+				width: 260px;
+				margin: 0 auto;
+				font-size: 12px;
+				padding-top: 10px;
+				color: white;
+				
+			}
+			.txt_ .p1{
+				float: left;
+			}
+			.txt_ .p2{
+				float: right;
+			}
+			.money_{
+				width: 260px;
+				margin: 0 auto;
+				font-size: 12px;
+				padding-top: 10px;
+				
+			}
+			.money1_{
+				width: 210px;
+				line-height: 35px;
+				float: left;
+				height: 35px;
+				background: white;
+			}
+			.money_ p{
+				padding: 0 8px 0 8px;
+			}
+			.money1_ .p1{
+				float: left;
+			}
+			.money1_ .p2{
+				float: right;
+			}
+			.money2_{
+				height: 35px;
+				width: 49px;
+				float: right;
+				border-left: 1px solid gray;
+				line-height: 35px;
+                background: white;				
+				text-align: center;
+				cursor: pointer;
+			}
+			button{
+				display: block;
+				width: 260px;
+				position: absolute;
+				top: 210px;
+				left: 20px;
+				background: #0094EF;
+				line-height: 35px;
+				height: 35px;
+				border: none;
+				color: white;
+				text-align: center;
+			}
+			.footer{
+				width: 260px;
+				height: 70px;
+				text-align: center;
+				margin: 0 auto;
+				padding-top: 110px;
+				font-size: 12px;
+				color: white;
+			}
+			.ding1{
+				width: 260px;
+				background: white;
+				position: absolute;
+				left: 20px;
+				top: 114px;
+				font-size: 12px;
+				border-top: 1px solid gray;
+				display: none;
+				z-index: 888;
+			}
+			.ding1 li{
+				padding:  7px;
+			}
+			.ding1 li:hover{
+				background: lightblue;
+			}
+			.ding2{
+				width: 260px;
+				background: white;
+				position: absolute;
+				left: 20px;
+				top: 184px;
+				font-size: 12px;
+				border-top: 1px solid gray;
+				display: none;
+				z-index: 888;
+			}
+			.ding2 li{
+				padding:  7px;
+			}
+			.ding2 li:hover{
+				background: lightblue;
+			}
+		</style>
+		<link rel="stylesheet" href="fonts/css/font-awesome.min.css" />
+
+	</head>
+	<body>
+		<div class="box">
+			<div class="title">
+				<p>快速搜索消费贷款</p>
+			</div>
+			<div class="txt clearfix">
+				<p class="p1">贷款金额:</p>
+				<p class="p2">不足一万可用小数表示</p>
+			</div>
+			<div class="money clearfix">
+				<div class="money1 clearfix">
+					<p class="p1">30</p>
+					<p class="p2">万元</p>
+				</div>
+				<div class="money2 ">
+					<i class="fa fa-sort-down"></i>
+				</div>
+			</div>
+			<div class="txt_ clearfix">
+				<p class="p1">贷款期限:</p>
+			</div>
+			<div class="money_ clearfix">
+				<div class="money1_ clearfix">
+					<p class="p1">18</p>
+					<p class="p2">个月</p>
+				</div>
+				<div class="money2_ ">
+					<i class="fa fa-sort-down"></i>
+				</div>
+			</div>
+            <button>搜索一下</button>
+            <div class="footer">
+            	<p>099信道的 2000家银行 1992小公司</p>
+            </div>
+            <ul class="ding1">
+            	<li>3800万元</li>
+            	<li>4000万元</li>
+            	<li>100万元</li>
+            	<li>500万元</li>
+            	<li>10200万元</li>
+            </ul>
+             <ul class="ding2">
+            	<li>2个月</li>
+            	<li>43个月</li>
+            	<li>6个月</li>
+            	<li>13个月</li>
+            	<li>1个月</li>
+            </ul>
+		</div>
+		<script src="js/jquery-3.1.1.min.js"></script>
+		<script>
+			$('.money2').click(function(){
+				$(".ding1").stop().toggle()
+
+			})
+			$(".ding1 li").click(function(){
+				$(".money1 .p1").html(parseInt($(this).html()))
+				$(".ding1").hide()
+			})
+			$('.money2_').click(function(){
+				$(".ding2").stop().toggle()
+
+			})
+			$(".ding2 li").click(function(){
+				$(".money1_ .p1").html(parseInt($(this).html()))
+				$(".ding2").hide()
+			})
+			
+		</script>
+	</body>
+</html>
+ 
